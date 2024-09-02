@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Scientific Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="calculator-screen" value="" disabled />
+        
+        <div class="calculator-keys">
+            <!-- Memory Functionality -->
+            <button type="button" class="memory" value="MC">MC</button>
+            <button type="button" class="memory" value="MR">MR</button>
+            <button type="button" class="memory" value="M+">M+</button>
+            <button type="button" class="memory" value="M-">M-</button>
+
+            <!-- Trigonometric Functions -->
+            <button type="button" class="function" value="sin">sin</button>
+            <button type="button" class="function" value="cos">cos</button>
+            <button type="button" class="function" value="tan">tan</button>
+            <button type="button" class="function" value="asin">asin</button>
+            <button type="button" class="function" value="acos">acos</button>
+            <button type="button" class="function" value="atan">atan</button>
+
+            <!-- Logarithmic and Exponential Functions -->
+            <button type="button" class="function" value="log">log</button>
+            <button type="button" class="function" value="ln">ln</button>
+            <button type="button" class="function" value="exp">exp</button>
+            <button type="button" class="function" value="^">x^y</button>
+            <button type="button" class="function" value="sqrt">√</button>
+
+            <!-- Arithmetic Operators -->
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <!-- Numbers and Special Keys -->
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" class="all-clear" value="all-clear">AC</button>
+
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" class="decimal" value=".">.</button>
+
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+            <button type="button" class="equal-sign operator" value="=">=</button>
+
+            <button type="button" value="0">0</button>
+            <button type="button" class="function" value="(">(</button>
+            <button type="button" class="function" value=")">)</button>
+            <button type="button" class="function" value="%">%</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
